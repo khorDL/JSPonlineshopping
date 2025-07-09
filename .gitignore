@@ -1,0 +1,5 @@
+# Ignore the ConnectionProvider.java file
+src/project/ConnectionProvider.java
+
+bin
+*.class
