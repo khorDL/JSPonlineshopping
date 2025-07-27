@@ -4,7 +4,7 @@
 String name=request.getParameter("name");
 String email=request.getParameter("email");
 String mobileNumber=request.getParameter("mobileNumber");
-String securityQuestion=request.getParameter("securityQuestion");
+String securityQuestions=request.getParameter("securityQuestions");
 String answer=request.getParameter("answer");
 String password=request.getParameter("password");
 String address="";
@@ -17,7 +17,7 @@ try{
 	ps.setString(1,name);
 	ps.setString(2,email);
 	ps.setString(3,mobileNumber);	
-	ps.setString(4,securityQuestion);
+	ps.setString(4,securityQuestions);
 	ps.setString(5,answer);
 	ps.setString(6,password);
 	ps.setString(7,address);

@@ -27,7 +27,7 @@
 
 			</form>
 			<h2>
-				<a href="">Login</a>
+				<a href="login.jsp">Login</a>
 			</h2>
 		</div>
 		<div class='whysign'>
